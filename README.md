@@ -1,7 +1,7 @@
 # Commands for setting everything up
 
 ```console
-> conda create --name ext python=3.9
+> conda create -n jupyterlab-ext --override-channels --strict-channel-priority -c conda-forge -c nodefaults jupyterlab=3 cookiecutter nodejs jupyter-packaging git
 > conda activate ext
-> python3 -m pip install cookiecutter
+> cookiecutter https://github.com/jupyterlab/extension-cookiecutter-ts
 ```
