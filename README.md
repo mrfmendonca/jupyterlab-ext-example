@@ -23,3 +23,9 @@ Add the new imports. Then:
 ```console
 > jlpm add @lumino/widgets
 ```
+
+Add messaging import, and:
+
+```console
+> jlpm add @lumino/messaging
+```
